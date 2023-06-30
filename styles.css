@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+#line{
+	background-color:black;
+	width:200px;
+	height:2px;
+	animation-name:change;
+}
+@keyframes change{
+	0%{
+		transform:rotate(45deg);
+	}
+	25%{
+		transform:rotate(90deg);
+	}
+	50%{
+		transform:rotate(180deg);
+	}
+	100%{
+		transform:rotate(360deg);
+	}
+}
